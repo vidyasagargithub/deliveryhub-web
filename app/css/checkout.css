@@ -1,0 +1,42 @@
+
+#pills-checkout li a{
+	padding-left:20px;
+	margin-left:20px;
+}
+
+.c-box{
+	width:100%;
+	height:auto;
+	background:none;
+	border:1px solid #ababab;
+}
+.tab-content{
+	border:none;
+}
+.card{
+	width:100%;
+	height:200px;
+	background:none;
+	border:1px solid #ababab;
+	border-radius:10px;
+	margin-bottom:20px;	
+	padding:20px;
+}
+#dbcard{
+	border:none;
+	box-shadow:none;
+}
+#dbcard.active{
+	border:none;
+}
+#c-name{
+	font-weight:400;
+	color:#ababab;	
+	font-size:
+}
+
+.booking-review{
+	width:100%;
+	height:200px;
+	background:#000000;
+}

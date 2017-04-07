@@ -1,0 +1,397 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#101020;
+  display:none;
+  overflow:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:auto;
+  height:auto;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:370px; 
+  height:auto;
+  padding:20px;	
+  background-color:#ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+  position:fixed;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:10px;
+  padding-bottom:0px;
+  margin-top:100px;
+  padding-bottom:20px;
+  left:0;
+  right:0;
+  z-index:9999;
+}
+.maintext{
+	text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+body{
+  background: url('bg.jpg');
+}
+#lorem{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12pt;
+  text-align: left;
+}
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color:#ee1b24;
+}
+strong{
+font-size:30px;
+font-weight:bolder;
+color:#ff7b24;
+	}
+
+.pp p{
+font-size:18px;
+text-align:center;
+font-weight:bold;
+margin-top:5px;
+color:#0099ff;
+}
+#an{
+font-size:18px;
+margin-left:31%;
+background:#2e3192;
+color:white;
+padding:0 5px 2px 5px;
+border:none;
+}
+#an:hover{
+font-size:18px;
+margin-left:31%;
+padding:0 5px 2px 5px;
+background:#ee1b24;
+color:white;
+border:none;
+}
+
+.inner-addon {
+  position: relative;
+  margin-top:20px;
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  z-index:9999;
+  left:0;
+}
+
+.left-addon input  { padding-left:  50px; }
+.right-addon input { padding-right: 30px; }
+
+#logo-p{
+	margin-right:auto;
+	margin-left:auto;
+	width:100px;
+}
+
+.facebook-icons{
+width: 35%;
+height: 37px;
+background: #4263a9;
+margin-top: 5px;
+margin-left:37px;
+position:absolute;
+}
+
+#fb{
+padding: 6px 6.5px;
+background:#364c7c;
+position:absolute;
+}
+
+.fb{
+margin-left:50px;
+margin-top:5px;
+color:#ffffff;
+}
+
+.google-icons{
+width: 35%;
+height: 37px;
+background: #e25841;
+margin-top: 14px;
+margin-left:190px;	
+}
+
+#go{
+padding: 6px 7px;
+background:#ab4031;
+position:absolute;
+}
+
+.go{
+	margin-left:45px;
+	margin-top:5px;
+	color:#ffffff;
+	padding-top:5px;
+}
+
+#mobile {
+    top: 0;
+    margin-top: 0px;
+    position: absolute;
+    left: 0px;
+    background: #ff7723;
+    padding: 12px 12px;
+    margin-left: 36px;
+}
+
+#login-b{
+margin-top:20px;
+font-size:18px;
+padding-left:25px;
+padding-right:25px;
+margin-left:40px;
+}
+
+#signup-b{
+margin-top:10px;
+font-size:18px;
+background:none;
+border:1px solid #ff7b24;
+color:#ff7b24;
+}
+
+.forgot-f{
+color:#ff7b24;
+margin-top:12px;
+font-size:15px;
+margin-left:35px;
+}
+
+.forgot-m{
+color:#ff7b24;
+text-align:right;
+margin-top:12px;
+font-size:12px;
+margin-right:24px;	
+}
+
+#form{
+	height:45px;
+	width:82%;
+	margin-left:35px;
+}
+
+.sign-up{
+width:400px;
+height:auto;
+background:#f3e8e1;
+padding-top:20px;
+padding-bottom:20px;
+right:20px;
+position:relative;
+}
+
+.member-yet{
+font-size:22px;
+font-weight:500;
+color:#ff7b24;
+}
+
+.para-login{
+text-align:center;
+font-size:12px;
+padding-left:35px;
+padding-right:35px;
+padding-top:20px;
+color:#000000;
+}
+
+
+#checkbox{
+position:absolute;
+margin-left:37px;
+margin-top:28px;
+}
+
+.terms{
+color:#000000;
+position:absolute;
+left:0;
+margin-left:80px;
+margin-top:22px;
+}
+
+.social-media{
+	padding-bottom:0px;	
+}
+
+.tc{
+color:#ff7b24;
+margin-left:150px;
+position:relative;
+margin-top:10px;
+padding-top:10px;
+}
+
+@media only screen and (max-width: 480px) {
+	#form{
+		margin-left:0;
+		width:320px;
+	}
+	#mobile{
+		margin-left:0;
+	}
+	
+}
+
+@media only screen and (max-width: 360px) {
+	.sign-up{
+width:300px;
+height:auto;
+background:#f3e8e1;
+padding-top:20px;
+padding-bottom:20px;
+right:20px;
+position:relative;
+}
+
+#boxes #dialog {
+  width:300px; 
+  height:auto;
+  padding:20px;	
+  background-color:#ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom:20px;
+  margin-top:10px;
+}
+
+.forgot-f{
+color:#ff7b24;
+position:absolute;
+margin-top:12px;
+font-size:9px;
+margin-left:35px;
+}
+
+.forgot-m{
+color:#ff7b24;
+text-align:right;
+margin-top:12px;
+font-size:9px;
+margin-right:24px;	
+}
+
+.facebook-icons{
+width: 35%;
+height: 37px;
+background: #4263a9;
+margin-top: 5px;
+margin-left:37px;
+position:absolute;
+}
+
+#fb{
+padding: 6px 6.5px;
+background:#364c7c;
+position:absolute;
+}
+
+.fb{
+margin-left:45px;
+margin-top:10px;
+color:#ffffff;
+font-size:12px;
+}
+
+.google-icons{
+width: 35%;
+height: 37px;
+background: #e25841;
+margin-top: 14px;
+margin-left:150px;	
+}
+
+#go{
+padding: 6px 7px;
+background:#ab4031;
+position:absolute;
+}
+
+.go{
+	margin-left:42px;
+	margin-top:10px;
+	color:#ffffff;
+	padding-top:10px;
+	font-size:12px;
+}
+
+#form {
+    margin-left: 0;
+    width: 255px;
+}
+
+#login-b {
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 31px;
+}
+.forgot-f {
+    color: #ff7b24;
+    position: absolute;
+    margin-top: 9px;
+    font-size: 14px;
+    margin-left: 35px;
+}
+.social-media {
+    padding-bottom: 0px;
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+
+}
+
+#login{
+	
+}
+
+#cancel{
+	cursor:pointer;
+}
+
+#forgot{
+	cursor:pointer;
+}

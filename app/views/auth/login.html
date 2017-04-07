@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="col-md-5 col-md-offset-1 col-xs-6">
+        <a id="login-t"> Login </a>
+    </div>
+    <div class="col-md-6 col-xs-6">
+        <a id="register-t"> SignUp </a>
+    </div>
+</div>
+<div class="row m-t-30">
+    <div class="col-md-10">
+        <div id="login-c">
+            <form class="form-horizontal" name="loginForm">
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                    <input type="tel" class="form-control" name="phone"  Placeholder="Email or Phone" required  />
+                   
+                </div>
+                <div class="form-group input-group ">
+                    <span class="input-group-addon "><i class="fa fa-lock "></i></span>
+                    <input type="password" name="password" class="form-control"  Placeholder="Password" required />
+                    
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-warning" ng-disabled="loginForm.$invalid"> Login </button>
+                </div>
+            </form>
+            
+            <div class="text-center">
+                <a href="#">Forget Password?</a>
+                <br />
+                <br>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary">
+                        <span class="fa fa-facebook" style="color:#ffffff;"></span> Facebook
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger">
+                        <span class="fa fa-google-plus" style="color:#ffffff;"></span> Google
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

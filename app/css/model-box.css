@@ -1,0 +1,154 @@
+.modal-dialog{
+width:100%;
+height:200px;
+margin-top:0;
+}
+
+.modal-body{
+	height:588px;
+}
+	
+#icons{
+	margin-top:30px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.name{
+	font-size:18px;
+	text-align:center;
+}
+
+#input{
+	border:none;
+	border-bottom:1px solid grey;
+	width:80%;
+	font-size:20px;
+}
+
+.parcel-btn{
+	width:15%;
+	height:40px;
+	background:#aaaaaa;
+	border:none;
+	color:#ffffff;
+}
+
+.form-group #inputp{
+	border:none;
+	border-bottom:1px solid darkgrey;
+	box-shadow:none;
+	font-size:16px;
+	margin-top:10px;
+}
+
+#rupee{
+	font-size:16px;
+	color:grey;
+	color:#ff7523;
+	padding-top:15px;
+	padding-left:0;
+	margin-left:0;
+}
+
+#input1{
+	border:none;
+	border-bottom:1px solid grey;
+	width:100%;
+	font-size:16px;
+	margin-top:30px;
+	box-shadow:none;
+	margin-bottom:30px;
+}
+
+select{
+	color:darkgrey;
+	width:100%;
+	height:50px;
+	border:none;
+	border-bottom:1px solid grey;
+}
+
+#fname{
+	border:none;
+	border-bottom:1px solid grey;
+	box-shadow:none;
+}
+
+.address-btn{
+	width:100%;
+	background:#ff7523;
+	border:none;
+	font-size:18px;
+	padding:10 0px;
+}
+
+/* add address css  */
+
+.address{
+	width:100%;
+	height:auto;
+	padding-bottom:20px;
+	background:#ffffff;
+	position:absolute;
+	z-index:9999;
+	margin-top:380px;
+	margin-left:98px;
+}
+.select-delivery-address{
+	width:100%;
+	height:30px;
+	background:#d2d2d2;
+	position:relative;	
+}
+.sda{
+	color:#7d7d7d;
+	font-size:18px;
+	padding-left:10px;
+}
+.aa{
+	color:#ff7523;
+	font-size:18px;
+	padding-left:10px;
+}
+#aadd{
+	font-size:20px;
+	color:#ff7523;
+	border:2px solid #ff7523;
+	padding:10px 12px;
+	border-radius:50px;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+#aadd:hover{
+cursor:pointer;	
+}
+
+.modal-content-addrrss{
+	background:none;
+}
+#exTab1{
+	background:#ffffff;
+}
+
+.nav-pills li a{
+	padding:10px 50px
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background:none;
+	padding:10px 50px;
+	color:#777777;
+}
+
+.modal-bodyaddress{
+	margin-top:100px;
+}
+
+#fname{
+	padding:30px 20px;
+}
+#heading{
+	color:#ff7523;
+}

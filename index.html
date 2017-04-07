@@ -1,0 +1,50 @@
+<html>
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app/css/style.css">
+    <link rel="stylesheet" href="app/css/basic.css">
+    <link rel="stylesheet" href="app/css/home.css">
+</head>
+    <body ng-app="deliveryApp">
+    <div class="container-fluid">
+    <div class="header">
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a class="navbar-brand" href="#"> <img src="app/images/logo-h.png" class="img-responsive" id="logo"> </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Online Payments</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a ui-sref="auth.login">Login/Register</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#"> <i class="fa fa-whatsapp" aria-hidden="true" id="nav-fa"></i> 9154 84 84 84 </a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="fa fa-phone" aria-hidden="true" id="nav-fa"></i> 040 6641 6651 </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+        <div ui-view class="clearfix">
+            
+        </div>
+   </div>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="app/app.js"></script>
+        <script src="app/config.js"></script>
+    </body>
+</html>
